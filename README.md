@@ -1,12 +1,10 @@
-***Dependancies:***
+## **Dependancies:**
 - Python (obvs)
 - Pygame module installed (use pip)
 - Mutagen module installed (use pip)
 - MP3 files to play (if there's no metadata attached it WILL crash out lol)
 
-
-
-***How to create a playlist:***
+## **How to create a playlist:**
   1. Find line 72 in music.py
   2. In the square brackets, for every song in the playlist do the following:
   3. Put "Song()" with the MP3s filepath as the argument to pass
@@ -16,33 +14,33 @@
 
 
 
-***Instructions for UI:***
+## **Instructions for UI:**
 
-**First button (from top-right):**
+### **First button (from top-right):**
   "Pause/Unpause"
   - Toggles playback, simples
 
-**Second button:**
+### **Second button:**
   "Back"
   - If within the first 3 seconds of the song, it will play the previous song in the queue
   - If after the first 3 seconds, it restarts the song
     
-**Third button:**
+### **Third button:**
   "Skip"
   - Skips to the next song in the queue
 
-**Fourth button:**
+### **Fourth button:**
   "Shuffle"
   - If black it means shuffle is turned off, and the queue will be in the same order as the playlist
   - If white it means the queue has been shuffled
 
   - When turning shuffle on, the current song will jump to a random one, and the queue is shuffled randomly
 
-**Fifth button:**
+### **Fifth button:**
   "Theme"
   - Switches through avaliable colour schemes
 
-**Time slider:**
+### **Time slider:**
   - The big bar under the MP3 artwork
   - Clicking anywhere on the bar will change the current time of the song to match where you clicked
   - I.e. allows you to skip to different parts of the song
