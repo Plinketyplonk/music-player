@@ -69,7 +69,7 @@ class Player:
             }
 
     def __init__(self):
-        self.playlist = [Song("D:/My Music/Evanescence - Fallen/01 - Going Under.mp3"), Song("D:/My Music/Evanescence - Fallen/02 - Bring Me To Life.mp3"), Song("D:/My Music/Evanescence - Fallen/03 - Everybody's Fool.mp3"), Song("C:/Users/User/Downloads/King For A Day.mp3"), Song("C:/Users/User/Downloads/Caraphernelia.mp3")] # for every song in the playlist, put Song({file location})
+        self.playlist = [] # for every song in the playlist, put Song({file location})
         self.queue = self.playlist.copy()
         self.current_song = 0
         self.textures = Player.Images()
@@ -290,3 +290,4 @@ while running:
     main_player.render()
 p.quit()
 quit()
+
